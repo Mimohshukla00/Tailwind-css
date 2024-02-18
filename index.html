@@ -4,92 +4,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RazorPay-Clone</title>
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="output.css" />
   </head>
   <body>
     <nav class="bg-deepBlue">
+      <!-- nav-bar -->
+      <div class="relative w-{1080px} mx-auto flex items-center justify-around">
+        <!-- logo -->
 
-        <!-- nav-bar -->
-        <div class="relative w-{1080px} mx-auto flex items-center justify-around ">
+        <a href="/" class="cursor-pointer">
+          <img src="Images\razorpayX.svg" width="125px" height="30px" alt="" />
+        </a>
 
-            <!-- logo -->
+        <ul class="flex space-x-6">
+          <!-- gap-[2.75rem] -->
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200 relative group"
+          >
+            <a href="#">Payments</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200 relative group"
+          >
+            <a href="#">Banking+</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200 relative group"
+          >
+            <a href="#">Payroll</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200 relative group"
+          >
+            <a href="#">Partners</a>
+            <!-- <div class=" absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div> -->
+          </li>
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200 relative group"
+          >
+            <a href="#">Resources</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200 relative group"
+          >
+            <a href="#">Support</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200 relative group"
+          >
+            <a href="#">Pricing</a>
+            <!-- <div class=" absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div> -->
+          </li>
+        </ul>
 
-            <a href="/" class="cursor-pointer ">
+        <div class="flex space-x-6">
+          <img src="Images\india-flag.svg" width="28px" height="20px" />
+          <a href="%">
+            <button
+              class="py-3 px-6 h-12 font-mullish rounded text-white border border-sky-500 text-sm font-bold"
+              href="#"
+            >
+              Log in
+            </button></a
+          >
 
-                <img src="Images\razorpayX.svg" width="125px" height="30px" alt="">
-            </a>
-
-            <ul class="flex space-x-6 "> 
-                <!-- gap-[2.75rem] -->
-                <li class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200  relative group ">
-                    <a href="#">Payments</a>
-                    <div class=" absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div>
-                </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200  relative group ">
-                    <a href="#">Banking+</a>
-                    <div class=" absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div>
-                </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200  relative group ">
-                    <a href="#">Payroll</a>
-                    <div class=" absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div>
-                </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200  relative group ">
-                    <a href="#">Partners</a>
-                    <!-- <div class=" absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div> -->
-                </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200  relative group ">
-                    <a href="#">Resources</a>
-                    <div class=" absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div>
-                </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200  relative group ">
-                    <a href="#">Support</a>
-                    <div class=" absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div>
-                </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue transition-all duration-200  relative group ">
-                    <a href="#">Pricing</a>
-                    <!-- <div class=" absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200 "></div> -->
-                </li>
-                
-
-                
-
-            </ul>
-
-
-            <div class="flex space-x-6">
-                <img src="Images\india-flag.svg" width="28px" height="20px">
-               <a href="%"> <button class="py-3  px-6 h-12 font-mullish rounded text-white border border-sky-500 text-sm font-bold" href="#">Log in</button></a>
-
-
-<button class="py-3 px-6 h-14  font-mullish rounded-sm bg-white text-lightBlue300 border hover:text-lightBlue transition-all duration-200 ">Sign up
-    <svg
-    viewBox="0 0 24 24"
-    focusable="false"
-    class="w-[14px] h-[14px] ml-3"
-  >
-    <path
-      fill="currentColor"
-      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-    ></path>
-  </svg>
-</button>
-               
-            </div>
-            
+          <button
+            class="py-3 px-6 h-14 font-mullish rounded-sm bg-white text-lightBlue300 border hover:text-lightBlue transition-all duration-200"
+          >
+            Sign up
+            <svg
+              viewBox="0 0 24 24"
+              focusable="false"
+              class="w-[14px] h-[14px] ml-3"
+            >
+              <path
+                fill="currentColor"
+                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+              ></path>
+            </svg>
+          </button>
         </div>
-
-
-      </nav>
+      </div>
     </nav>
 
+    <section class="bg-deepBlue">
+      <div class="w-10/12 flex flex-row justify-between items-center mx-auto">
+        <!-- left Part -->
 
+        <div class="flex flex-col gap-4">
+          <h1
+            class="text-white font-custom font-heading font-extrabold text-4xl mb-4 tracking-wide leading-normal"
+          >
+            To win customer trust, Razorpay is a must
+          </h1>
 
+          <div class="w-6 h-1 bg-greenLight"></div>
+          <p class="font-mullish text-[18px] leading7 text-white opacity-70">
+            An RBI Authorised Payment Aggregator, we ensure your transactions
+            are secure.
+          </p>
+          <button
+            class="rounded bg-lightBlue text-white font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px] w-44"
+          >
+            Sign Up Now
+          </button>
+        </div>
 
-    
+        <!-- Right-Part -->
 
-
-
-
-
+        <div>
+          <img src="Images\hero-illustration.jpg" alt="" />
+        </div>
+      </div>
+      <!-- triangle-image -->
+      <div>
+        <img src="Images\hero-shape.svg" alt="" />
+      </div>
+    </section>
   </body>
 </html>
