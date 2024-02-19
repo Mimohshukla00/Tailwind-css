@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body>
-    <nav class="bg-deepBlue">
+    <!-- Nav-bar -->
+    <nav class="bg-deepBlue w-[100%]">
       <!-- nav-bar -->
-      <div class="relative w-{1080px} mx-auto flex items-center justify-around">
+      <div
+        class="relative overflow-y-hidden mx-auto flex items-center justify-around"
+      >
         <!-- logo -->
 
         <a href="/" class="cursor-pointer">
@@ -101,12 +104,14 @@
         </div>
       </div>
     </nav>
-
-    <section class="bg-deepBlue">
-      <div class="w-10/12 flex flex-row justify-between items-center mx-auto">
+    <!-- hero-section -->
+    <section class="bg-deepBlue w-full overflow-x-hidden">
+      <div
+        class="w-10/12 mx-w-[1080px] overflow-x-hidden flex flex-row justify-between items-center mx-auto"
+      >
         <!-- left Part -->
 
-        <div class="flex flex-col gap-4">
+        <div class="space-y-8">
           <h1
             class="text-white font-custom font-heading font-extrabold text-4xl mb-4 tracking-wide leading-normal"
           >
@@ -128,12 +133,74 @@
         <!-- Right-Part -->
 
         <div>
-          <img src="Images\hero-illustration.jpg" alt="" />
+          <img
+            src="Images\hero-illustration.jpg"
+            alt=""
+            class="w-full max-w[680px]"
+          />
         </div>
       </div>
       <!-- triangle-image -->
+
+      <div class="absolute left-0 w-[102%]">
+        <img src="Images\hero-shape.svg" alt="#" class="object-fill" />
+      </div>
+    </section>
+
+    <!-- next-section -->
+
+    <section class="relative mt-[190px] overflow-hidden">
+      <img
+        src="Images\feature-section1-dottedrows.png"
+        alt=""
+        loading="lazy "
+        width="233"
+        height="167" class="absolute -top-[8rem] left-[10rem]"
+      />
+      <img
+        src="Images\feature-section1-dottedrows.png"
+        alt=""
+        width="233"
+        height="167"
+      />
+
       <div>
-        <img src="Images\hero-shape.svg" alt="" />
+        <!-- heading -->
+        <h2>Accept Payments with Razorpay Payment Suite</h2>
+        <div></div>
+
+        <!-- content-box -->
+
+        <div>
+          <!-- left side -->
+          <div>
+            <h3>
+              Supercharge your business with the all‑powerful
+              <span>Payment Gateway</span>
+            </h3>
+            <ul>
+              <li><span>100+ Payment Methods</span></li>
+              <li><span>Industry Leading Success Rate</span></li>
+              <li><span>Superior Checkout Experience</span></li>
+              <li><span>Easy to Integrate</span></li>
+              <li><span>Instant Settlements from day 1</span></li>
+              <li><span>In-depth Reporting and Insights</span></li>
+            </ul>
+          </div>
+          <!-- button-hyperLink-section -->
+          <div>
+            <button>Sign-up Now</button>
+            <!-- Hyper-link -->
+            <div>
+              <a href="#">Know More</a>
+              <i></i>
+            </div>
+
+            <!-- background-image     -->
+
+            <img src="Images\payment-suite.png" alt="" />
+          </div>
+        </div>
       </div>
     </section>
   </body>
